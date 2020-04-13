@@ -1,0 +1,16 @@
+{
+  "name": "@app/database",
+  "version": "1.0.0",
+  "description": "Real World Database",
+  "main": "index.js",
+  "author": "Bao Tran <baotq610@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "migrate": "env NODE_ENV=development && knex migrate:latest"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "knex": "^0.20.13",
+    "pg": "^8.0.2"
+  }
+}
